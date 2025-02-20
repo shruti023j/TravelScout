@@ -1,8 +1,4 @@
-Create a new Maven project and add the following dependencies to pom.xml:
 
-xml
-Copy
-Edit
 <dependencies>
     <!-- Dropwizard Core -->
     <dependency>
