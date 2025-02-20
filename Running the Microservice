@@ -1,0 +1,13 @@
+Running the Microservice
+Compile & Run the Dropwizard App
+mvn clean install
+java -jar target/my-app-1.0-SNAPSHOT.jar server
+
+ Test the API using curl
+curl -X POST http://localhost:8080/search -H "Content-Type: application/json" -d '{"city": "New York"}'
+
+ Expected JSON Response
+[
+    { "city": "New York", "kind": "car", "title": "Luxury Sedan" },
+    { "city": "New York", "kind": "hotel", "title": "5-Star Hotel" }
+]
