@@ -1,0 +1,12 @@
+
+
+[
+    { "city": "New York", "kind": "car", "title": "Luxury Sedan" },
+    { "city": "Los Angeles", "kind": "car", "title": "Economy Car" }
+]
+hotels.json
+
+[
+    { "city": "New York", "kind": "hotel", "title": "5-Star Hotel" },
+    { "city": "Los Angeles", "kind": "hotel", "title": "Budget Inn" }
+]
